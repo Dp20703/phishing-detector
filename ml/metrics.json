@@ -1,0 +1,68 @@
+{
+  "dataset_rows_after_cleaning": 95248,
+  "split": "80/20 grouped by registered domain, seed 42",
+  "cv_f1": {
+    "Logistic Regression": 0.8129,
+    "Random Forest": 0.8556
+  },
+  "selected_model": "Random Forest",
+  "test_results": {
+    "Logistic Regression": {
+      "accuracy": 0.8475,
+      "precision": 0.9044,
+      "recall": 0.7572,
+      "f1": 0.8243,
+      "confusion_matrix": [
+        [
+          9215,
+          711
+        ],
+        [
+          2156,
+          6724
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.8897,
+      "precision": 0.9255,
+      "recall": 0.8336,
+      "f1": 0.8771,
+      "confusion_matrix": [
+        [
+          9330,
+          596
+        ],
+        [
+          1478,
+          7402
+        ]
+      ]
+    }
+  },
+  "feature_importance": {
+    "url_length": 0.2001,
+    "suspicious_in_rest": 0.1734,
+    "entropy": 0.1376,
+    "num_digits": 0.0801,
+    "host_length": 0.0775,
+    "path_length": 0.0603,
+    "digit_ratio": 0.0487,
+    "num_dots": 0.0426,
+    "path_depth": 0.04,
+    "num_params": 0.0329,
+    "num_subdomains": 0.0326,
+    "brand_mismatch": 0.0292,
+    "host_digits": 0.0243,
+    "num_hyphens": 0.0154,
+    "host_hyphens": 0.005,
+    "suspicious_in_domain": 0.0005
+  },
+  "real_world_sanity_check": {
+    "n_legit": 41,
+    "n_phishing_style": 20,
+    "legit_flagged_as_phishing": 7,
+    "phishing_style_caught": 20
+  },
+  "model_size_mb": 12.5
+}

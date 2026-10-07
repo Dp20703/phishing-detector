@@ -1,0 +1,62 @@
+url,label,note
+https://github.com/pallets/flask/issues/5123,0,GitHub issue
+https://github.com/microsoft/vscode/blob/main/README.md,0,GitHub file
+https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python,0,StackOverflow question
+https://en.wikipedia.org/wiki/Machine_learning,0,Wikipedia article
+https://docs.python.org/3/library/urllib.parse.html,0,Python docs
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map,0,MDN docs
+https://www.amazon.in/dp/B08N5WRWNW?ref=ppx_yo2ov_dt_b_product_details&th=1,0,Amazon product
+https://www.flipkart.com/apple-iphone-15-black-128-gb/p/itm6ac6485515ae4,0,Flipkart product
+https://www.youtube.com/watch?v=dQw4w9WgXcQ,0,YouTube video
+https://www.google.com/search?q=python+tutorial&hl=en,0,Google search
+https://www.linkedin.com/in/some-person-123456/,0,LinkedIn profile
+https://medium.com/@someauthor/how-transformers-work-8f1d2a3b4c5d,0,Medium article
+https://www.bbc.com/news/world-asia-india-67890123,0,BBC news
+https://timesofindia.indiatimes.com/india/some-news-headline/articleshow/12345678.cms,0,News article
+https://www.nytimes.com/2025/03/14/technology/ai-chips.html,0,NYT article
+https://react.dev/learn/thinking-in-react,0,React docs
+https://vercel.com/docs/deployments/overview,0,Vercel docs
+https://render.com/docs/deploy-fastapi,0,Render docs
+https://fastapi.tiangolo.com/tutorial/first-steps/,0,FastAPI docs
+https://scikit-learn.org/stable/modules/ensemble.html,0,scikit-learn docs
+https://pypi.org/project/scikit-learn/,0,PyPI project
+https://www.npmjs.com/package/react,0,npm package
+https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset,0,Kaggle dataset
+https://www.irctc.co.in/nget/train-search,0,IRCTC
+https://www.hdfcbank.com/personal/pay/cards/credit-cards,0,HDFC Bank cards page
+https://www.sbi.co.in/web/personal-banking/accounts,0,SBI accounts page
+https://accounts.google.com/signin/v2/identifier?service=mail,0,Google sign-in
+https://www.paypal.com/signin,0,PayPal sign-in
+https://www.microsoft.com/en-in/microsoft-365/get-started-with-office-2021,0,Microsoft page
+https://support.apple.com/en-in/HT201222,0,Apple support
+https://www.netflix.com/browse/genre/83,0,Netflix browse
+https://www.reddit.com/r/MachineLearning/comments/1abc234/d_weekly_discussion/,0,Reddit thread
+https://twitter.com/home,0,Twitter home
+https://www.wikipedia.org/,0,Wikipedia home
+https://www.google.com,0,Google home
+https://github.com,0,GitHub home
+https://www.python.org,0,Python home
+https://openai.com,0,Homepage
+https://www.bbc.co.uk,0,BBC home
+https://www.amazon.in,0,Amazon home
+https://www.iitb.ac.in/en/about-iit-bombay,0,University page
+http://paypal.com.secure-login.verify-account-help.top/webscr?cmd=_login,1,brand in subdomain
+http://paypal-account-verify.xyz/signin/update.php,1,brand-like domain
+http://secure-sbi-netbanking-update.top/index.php?user=login,1,bank lookalike
+http://hdfcbank.com.account-confirm.click/netbanking/login,1,bank brand in subdomain
+http://192.0.2.15/amazon/signin.php?verify=1,1,IP address host
+http://203.0.113.77/~user/paypal/confirm/login.html,1,IP address host with path
+http://login.microsoftonline.com.password-reset-check.xyz/common/oauth2,1,Microsoft lookalike
+http://amazon-prime-gift.win/claim?id=88231&verify=true&session=ab12cd,1,prize scam
+http://appleid.apple.com.verify-device-5521.top/auth,1,Apple lookalike
+http://netflix-billing-update.xyz/account/payment,1,Netflix lookalike
+http://dhl-parcel-tracking.top/confirm?track=00239182&update=address,1,delivery scam
+http://facebook.com-security-check.info/login.php?next=home,1,Facebook lookalike
+http://www.icici-bank-kyc-update.online/verify/customer.html,1,KYC scam
+http://instagram.account-verify.click/accounts/login/?next=/,1,Instagram lookalike
+http://paytm-kyc-expiry.top/update/account?mobile=9999999999,1,Paytm KYC scam
+http://dropbox.com.share-document.xyz/s/secure/login.php,1,Dropbox lookalike
+http://xn--pypal-4ve.com/signin,1,punycode homograph style
+http://secure.update.account.verify.paypal.example-host.top/cgi-bin/webscr,1,many subdomains
+http://bit-wallet-recovery.xyz/restore/seed?verify=1&account=0&confirm=yes,1,crypto scam
+http://sbi.co.in.netbanking-login.help/retail/login.htm,1,bank lookalike
